@@ -1,49 +1,166 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<br>
+<h1 align="center"><b>Hi, I'm Yashwanth Devireddy</b> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<p align="right">
+  <a class="move-right" href="https://github.com/DenverCoder1/readme-typing-svg"><img class="readme-typing-svg" src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25¢er=true&vCenter=true&width=600&height=100&lines=Data+Scientist..♥++;Machine+Learning+Enthusiast,;Computer+Science,;Data+Analytics,;Active+Learner%2FProblem+Solver,;Love+to+learn+new+stuffs..<3" alt="Dynamic Text"></a>
+</p>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<style>
+  body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+  }
+  h3, h4, h5, h6 {
+    margin: 0;
+    color: #2c3e50;
+  }
+  .section-header {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  .experience-section, .education-section {
+    margin-bottom: 30px;
+  }
+  .company-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2980b9;
+    margin-bottom: 5px;
+  }
+  .position-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  .experience-item, .education-item {
+    margin-bottom: 15px;
+  }
+  .experience-item ul, .education-item ul {
+    padding-left: 20px;
+    list-style-type: none;
+  }
+  .experience-item li, .education-item li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+  }
+  .experience-item li:before, .education-item li:before {
+    content: "➤";
+    position: absolute;
+    left: 0;
+    color: #e74c3c;
+  }
+  .projects-link {
+    font-size: 20px;
+    color: #2980b9;
+    text-decoration: none;
+  }
+  .projects-link:hover {
+    text-decoration: underline;
+  }
+</style>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### 🚀 Transforming Data into Actionable Insights
+<br>
+Strategic thinker with 3+ years in data science and analytics, I thrive at the intersection of data, business strategy, and technology innovation. My passion lies in solving complex problems by harnessing the power of Machine Learning, Statistical Modeling, and Data Visualization to drive impactful business decisions.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+---
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## <span class="section-header">Experience</span>
 
-**Markdown generator**
+### JCPenney
+<div class="experience-section">
+  <div class="position-name">
+    Data Scientist <em>(Feb 2024 - Present)</em>
+  </div>
+  <div class="experience-item">
+    <ul>
+      <li>Architected a machine learning pipeline using Scikit-learn and Python to analyze 25M+ customer records, implementing RFM analysis combined with K-means clustering and PCA to identify high-value customer segments, resulting in a 14% increase in targeted email campaign engagement</li>
+      <li>Developed predictive models using XGBoost and Random Forests to forecast customer purchase behavior across different segments, enabling personalized pricing strategies that increase customer spend by 15% for premium segments</li>
+      <li>Implemented the segmentation model in production using AWS SageMaker, enabling real-time personalization of marketing campaigns and increasing response rates by 28%</li>
+      <li>Led the development of a demand forecasting system using neural networks in TensorFlow to optimize inventory across 650+ retail locations, reducing stockout incidents by 18% while maintaining optimal stock levels</li>
+      <li>Engineered a pricing optimization algorithm leveraging decision trees and linear regression, which boosted profit margins by 8% while ensuring competitive positioning against top market rivals through real-time adjustments</li>
+    </ul>
+  </div>
+</div>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+### JCPenney
+<div class="experience-section">
+  <div class="position-name">
+    Data Scientist Intern <em>(Aug 2023 - Dec 2023)</em>
+  </div>
+  <div class="experience-item">
+    <ul>
+      <li>Created a predictive model using XGBoost and Python to forecast seasonal trends, contributing to a 10% improvement in inventory planning accuracy</li>
+      <li>Conducted exploratory data analysis and generated visualizations using Python (seaborn) and R (ggplot2) to understand customer behavior patterns, providing actionable insights that increased average order value by 8%</li>
+    </ul>
+  </div>
+</div>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### Accenture
+<div class="experience-section">
+  <div class="position-name">
+    Data Scientist <em>(Aug 2020 - Dec 2021)</em>
+  </div>
+  <div class="experience-item">
+    <ul>
+      <li>Architected and executed a targeted credit card marketing campaign, yielding a 16% spike in the open rate for X-selling credit cards through strategic customer segmentation with clustering algorithms</li>
+      <li>Instrumental in developing a predictive credit card fraud detection classification model for a leading US banking client, resulting in a $3M reduction in fraud losses within the first year. Leveraged data science methodologies, and performed a thorough analysis and visualization of transactional trends and patterns</li>
+      <li>Pioneered a substantial over 6% reduction in Net Credit Loss by effectively applying Boosting techniques to predict credit balances and refine credit lines</li>
+      <li>Collaborated with cross-functional teams to develop predictive models to improve business outcomes, resulting in a 20% increase in revenue</li>
+      <li>Achieved a noteworthy 12% reduction in consumer churn for gold credit card customers by adroitly implementing Bagging classifiers with Grid Search CV</li>
+    </ul>
+  </div>
+</div>
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+### Enique Solutions
+<div class="experience-section">
+  <div class="position-name">
+    Data Analyst <em>(Jan 2020 - Jul 2020)</em>
+  </div>
+  <div class="experience-item">
+    <ul>
+      <li>Conducted in-depth exploratory data analysis for a major US fintech client using Python (Pandas, Numpy) to identify patterns in customer transaction data, leading to a 12% reduction in fraudulent activities</li>
+      <li>Built predictive models using logistic regression to assess transaction risk patterns, improving fraud detection accuracy by 20% for the client's retail banking division</li>
+      <li>Designed interactive Tableau dashboards to visualize key financial metrics, enhancing the client's ability to make data-driven decisions and improving reporting efficiency by 25%</li>
+    </ul>
+  </div>
+</div>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+---
+
+## <span class="section-header">Education</span>
+
+### The University of Texas at Dallas <em>[Dallas, TX]</em>
+<div class="education-section">
+  <div class="education-item">
+    <em>Master of Science in Computer Science | Data Science Track</em> <em>(2022 - 2023)</em>
+    <ul>
+      <li><strong>Awards:</strong> Awarded the Erik Jonsson Dean’s Scholarship in a cohort of 600 graduate Computer Science students</li>
+      <li><strong>Coursework:</strong> Machine Learning, Statistics for Data Science, Database Design, Artificial Intelligence, Big Data Analytics and Management, Algorithms and Data Structures</li>
+    </ul>
+  </div>
+</div>
+
+### Velagapudi Ramakrishna Siddhartha Engineering College <em>[India]</em>
+<div class="education-section">
+  <div class="education-item">
+    <em>Bachelor of Technology in Electronics and Communication Engineering</em>
+  </div>
+</div>
+
+---
+
+## <span class="section-header">Projects</span>
+
+<a href="https://yash413.github.io/Projects/" class="projects-link">Click here to explore my portfolio</a> or visit <a href="https://yash413.github.io/Projects/" class="projects-link">my projects page</a>
